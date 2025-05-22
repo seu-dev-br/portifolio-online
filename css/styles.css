@@ -362,10 +362,11 @@ code {
 }
 
 .hero-bg-gradient {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to bottom, var(--dark-900), var(--dark-800));
-  z-index: 0;
+	position: absolute;
+	inset: 0;
+	background-position: bottom;
+	z-index: 0;
+	background-image: url(../images/fundo.jpg);
 }
 
 .hero-border {
